@@ -84,6 +84,11 @@ function citytree_contact_redirect() {
 }
 add_action( 'template_redirect', 'citytree_contact_redirect' );
 
+// Site title
+add_filter( 'pre_get_document_title', function() {
+    return 'עץבעיר - מרכז ידע לאקולוגיה עמוקה';
+} );
+
 // Helper: template directory URI shorthand
 function ct_asset( $path ) {
     return get_template_directory_uri() . '/assets/' . ltrim( $path, '/' );

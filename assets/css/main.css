@@ -24,12 +24,12 @@ html {
   background-color: var(--color1);
   scroll-behavior: smooth;
   scroll-padding-top: var(--header-height);
-  font-family: 'Assistant', 'Segoe UI', Arial, sans-serif;
-  font-size: 1.25rem;
-  font-weight: 500;
 }
 
 body {
+  font-family: 'Assistant', 'Segoe UI', Arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
   color: var(--color2);
   background-color: var(--bgcolor);
   direction: rtl;
@@ -556,7 +556,10 @@ footer.site-footer a:hover { opacity: 0.75; }
 .top-section-text { padding-top: 20px; }
 
 /* ---------- Section: Workshops (Coming Home) ---------- */
-.workshops-section .box-inner { margin-bottom: 15px; }
+.workshops-section .box-inner { margin-bottom: 15px; color: #e6f1d6; }
+.workshops-section .box-inner * { color: #e6f1d6; }
+.workshops-section .box-inner a { color: #d8fb84; }
+.workshops-section .box-inner a:hover { color: rgb(132,186,6); }
 .workshops-section .container { padding: 20px 15px; }
 
 /* ---------- Section: InfoCenter ---------- */
@@ -646,6 +649,14 @@ footer.site-footer a:hover { opacity: 0.75; }
   width: 50%;
   max-width: 200px;
   border-radius: 50%;
+}
+.people-section .box-inner.people-main {
+  background-color: rgba(43,75,37,0.5);
+  border-radius: 50px;
+  color: #e6f1d6;
+}
+.people-section .box-inner.people-main * {
+  color: #e6f1d6;
 }
 
 /* ---------- Section: Contact ---------- */

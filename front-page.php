@@ -56,7 +56,7 @@
 
     <div class="row mb-3">
       <div class="col">
-        <div class="box-inner text-center">
+        <div class="box-inner text-center" style="background:rgba(52,46,17,0.58);">
           <div class="box-title">תוכנית השיבה הביתה</div>
         </div>
       </div>
@@ -64,7 +64,7 @@
 
     <div class="row">
       <div class="col-lg-6">
-        <div class="box-inner mb-3">
+        <div class="box-inner mb-3" style="background:rgba(52,46,17,0.58);">
           <p class="box-paragraph">
             איך להכין קומפוסט בשיטות שונות?<br>
             מה אפשר ללקט ברחובות העיר?<br>
@@ -93,21 +93,21 @@
       </div>
 
       <div class="col-lg-6">
-        <div class="box-inner mb-3">
+        <div class="box-inner mb-3" style="background:rgba(52,46,17,0.58);">
           <p class="box-paragraph">
             <a href="<?php echo home_url('/learn/#forage'); ?>">לימוד בעולם האמיתי</a> - סיורי ליקוט עם אלון מסביב לשנה,
             סדרת אדמה עם תמי בתל חובז – אנחנו אוהבות לפגוש א'נשים בתלת-ממד, ואפשר תמיד גם להזמין
             אותנו ללמד אצלכן בחצר או בקורס.
           </p>
         </div>
-        <div class="box-inner mb-3">
+        <div class="box-inner mb-3" style="background:rgba(52,46,17,0.58);">
           <p class="box-paragraph">
             <a href="<?php echo home_url('/learn/#soil'); ?>">לימוד בזום</a> - זו ההתמחות של תמי מאז ימי הקורונה. היא
             מגישה את הידע המגוון שאספנו – מתולדות הפטריארכייה והדרכים לפירוקה ועד לקומפוסט
             (הממ... זה אותו דבר!) תמי לשירותכן אם החלטתן לנסות לעבור לצד השני של המראה.....
           </p>
         </div>
-        <div class="box-inner">
+        <div class="box-inner" style="background:rgba(52,46,17,0.58);">
           <p class="box-paragraph">
             <a href="https://www.patreon.com/c/citytree/collections" target="_patreon">לימוד עצמי</a>
             - בעמוד שלנו בפטראון תוכלו למצוא את כל חומרי הלימוד, מסודרים ב"אוספים" – תוכלו לרכוש
@@ -129,42 +129,42 @@
   <div class="infoCenterContainer">
 
     <!-- Surrounding bubbles (absolutely positioned) -->
-    <div class="box-inner float-box pos-top-left clickable" style="background:white;">
+    <div class="box-inner float-box pos-top-left clickable" style="background:rgba(201,221,201,0.8);">
       <a href="https://www.youtube.com/user/citytreenet/" class="float-box-link" target="_youtube"></a>
       <div class="box-title">סרטונים</div>
       <p class="box-paragraph">סדרת סרטוני ״השיבה הביתה״ ועוד, בערוץ יוטיוב של העץ</p>
     </div>
 
-    <div class="box-inner float-box pos-left" style="background:white;">
+    <div class="box-inner float-box pos-left" style="background:rgba(201,221,201,0.8);">
       <div class="box-title">מילון</div>
       <p class="box-paragraph">חידושי מילים והגיגים על שפה</p>
     </div>
 
-    <div class="box-inner float-box pos-bottom" style="background:white;">
+    <div class="box-inner float-box pos-bottom" style="background:rgba(201,221,201,0.8);">
       <div class="box-title">מקורות</div>
       <p class="box-paragraph">רשימת הספרים ומקורות הידע המועדפים של העץ</p>
     </div>
 
-    <div class="box-inner float-box pos-bottom-right clickable" style="background:white;">
+    <div class="box-inner float-box pos-bottom-right clickable" style="background:rgba(201,221,201,0.8);">
       <a href="https://www.patreon.com/collection/695361?view=expanded" class="float-box-link" target="_patreon"></a>
       <div class="box-title">הגות</div>
       <p class="box-paragraph">ממשק הבית האקולוגי ועד פוסטקפיטליזם</p>
     </div>
 
-    <div class="box-inner float-box pos-right clickable" style="background:white;">
+    <div class="box-inner float-box pos-right clickable" style="background:rgba(201,221,201,0.8);">
       <a href="https://www.patreon.com/collection/915737?view=expanded" class="float-box-link" target="_patreon"></a>
       <div class="box-title">מניפסטים</div>
       <p class="box-paragraph">דפים לתיקון עולם</p>
     </div>
 
-    <div class="box-inner float-box pos-top-right clickable" style="background:white;">
+    <div class="box-inner float-box pos-top-right clickable" style="background:rgba(201,221,201,0.8);">
       <a href="https://www.patreon.com/collection/274006?view=expanded" class="float-box-link" target="_patreon"></a>
       <div class="box-title">במשעול הצר</div>
       <p class="box-paragraph">ההסכת של עץבעיר</p>
     </div>
 
     <!-- Center bubble (static, held by flexbox) -->
-    <div class="box-inner float-box pos-center clickable" style="background:white;">
+    <div class="box-inner float-box pos-center clickable" style="background:rgba(201,221,201,0.8);">
       <a href="https://www.patreon.com/c/citytree/collections" class="float-box-link" target="_patreon"></a>
       <div class="box-title">מרכז ידע</div>
       <p class="box-paragraph">
@@ -205,12 +205,12 @@
       </div>
 
       <div class="col-md-4 col-lg-5 col-xl-6 side-column">
-        <div class="box-inner float-box static-position clickable" style="background:white;">
+        <div class="box-inner float-box static-position clickable" style="background:rgba(185,211,214,0.87);">
           <a href="https://www.patreon.com/collection/197538" class="float-box-link" target="_patreon"></a>
           <div class="box-title">אחוות העצים</div>
           <p class="box-paragraph">אחד החלומות של העץ קרם עור וגידים לרגע. ברגע ההוא למדנו המון על עצים...</p>
         </div>
-        <div class="box-inner float-box static-position clickable" style="background:white;">
+        <div class="box-inner float-box static-position clickable" style="background:rgba(185,211,214,0.87);">
           <a href="https://www.patreon.com/collection/359780" class="float-box-link" target="_patreon"></a>
           <div class="box-title">שירת האלון</div>
           <p class="box-paragraph">ד״ר אלון הוא גם משורר אקולוגי. מבחר משיריו מובא כאן בליווי צילומים של המכ' תמי...</p>

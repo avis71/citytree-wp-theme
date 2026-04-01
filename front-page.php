@@ -183,7 +183,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-lg-7 col-xl-6">
-        <div class="box-inner vision-main" style="background:#b9d3d6dd;">
+        <div class="box-inner vision-main" style="background:rgba(185,211,214,0.87);">
           <div class="box-title vision-title">עץ חולם עולם אחר שאפשרי</div>
           <p class="box-paragraph">
             אנו רואות לנגד עינינו עולם שבו גופנו, ביתנו וכדור-הארץ כולו שבים ומקבלים יחס של
